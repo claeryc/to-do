@@ -18,6 +18,11 @@
     font-family: "Inter", sans-serif;
 }
 
+.main {
+    margin: 0 auto;
+    width: 60%;
+}
+
 input:not([type="radio"]):not([type="checkbox"]), button {
     appearance: none;
     border: none;
@@ -93,7 +98,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1.0rem;
     border-radius: 0.5rem;
     box-shadow: var(--shadow);
     cursor: pointer;
@@ -150,7 +155,7 @@ input:checked ~ .catS::after {
 
 .add-todo .options label div {
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .add-todo input[type="submit"] {
